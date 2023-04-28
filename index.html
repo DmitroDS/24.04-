@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>26.04 | Урок</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="one_question">
+        <h1 class="zag">Какого цвета небо?</h1>
+        <input type="text" id="input_one" class="input">
+        <button id="check_one" class="button">Проверить!</button>
+    </div>
+    <div class="two_question">
+        <h1 class="zag">Сколько будет 2+2?</h1>
+        <input type="text" id="input_two" class="input">
+        <button id="check_two" class="button">Проверить!</button>
+    </div>
+    <div class="three_question">
+        <h1 class="zag">Сколько будет 2+2*2?</h1>
+        <input type="text" id="input_three" class="input">
+        <button id="check_three" class="button">Проверить!</button>
+    </div>
+    <div class="result">
+        <h1 style="
+
+        background: #529bf6;
+        background: -webkit-radial-gradient(circle farthest-side at center center, #529bf6 0%, #2f21e3 100%);
+        background: -moz-radial-gradient(circle farthest-side at center center, #529bf6 0%, #2f21e3 100%);
+        background: radial-gradient(circle farthest-side at center center, #529bf6 0%, #2f21e3 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        ">Результаты:</h1>
+        <h2 id="correct" style="
+
+        background: #f6cd52;
+        background: -webkit-linear-gradient(to top right, #f6cd52 0%, #3be321 100%);
+        background: -moz-linear-gradient(to top right, #f6cd52 0%, #3be321 100%);
+        background: linear-gradient(to top right, #f6cd52 0%, #3be321 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        "></h2>
+        <h2 id="incorrect" style="
+
+        background: #f65452;
+        background: -webkit-linear-gradient(to top right, #f65452 0%, #e32321 100%);
+        background: -moz-linear-gradient(to top right, #f65452 0%, #e32321 100%);
+        background: linear-gradient(to top right, #f65452 0%, #e32321 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        "></h2>
+        <h1 style="
+
+        background: #5280f6;
+        background: -webkit-linear-gradient(to top right, #5280f6 0%, #21a7e3 100%);
+        background: -moz-linear-gradient(to top right, #5280f6 0%, #21a7e3 100%);
+        background: linear-gradient(to top right, #5280f6 0%, #21a7e3 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        ">Ваши результаты:</h1>
+        <ul style="text-align: left !important; 
+
+        background: #5280f6;
+        background: -webkit-linear-gradient(to top right, #5280f6 0%, #8221e3 100%);
+        background: -moz-linear-gradient(to top right, #5280f6 0%, #8221e3 100%);
+        background: linear-gradient(to top right, #5280f6 0%, #8221e3 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        ">
+            <li id="n1"></li>
+            <li id="n2"></li>
+            <li id="n3"></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
